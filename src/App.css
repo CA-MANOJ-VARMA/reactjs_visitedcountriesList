@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.css-bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-all-countires-list {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1200px;
+  height: 300px;
+  overflow: auto;
+}
+
+.css-coutry-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-button-itself {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 0;
+  font-weight: bold;
+  background-color: blueviolet;
+  color: white;
+}
+
+.css-visited {
+  background-color: green;
+}
+
+.css-visited-countires-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 1200px;
+  list-style-type: none;
+}
+
+.css-thumbnail-image {
+  width: 300px;
+}
+
+.css-visited-country-button-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-para-remove-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
